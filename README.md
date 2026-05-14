@@ -6,25 +6,25 @@ A smart digital village/property record management app — built with Android (J
 
 # 📱 About the App
 
-GramaKhata is an Android application designed to simplify village-level property and record management. It helps users maintain digital khata records, manage citizen/property details, and securely store information using local storage — all without needing internet connectivity.
+GramaKhata is an Android application designed to simplify village-level property and record management. It helps users maintain digital records, manage citizen/property details, and securely store information using local storage — all without requiring internet connectivity.
 
-The app is simple, lightweight, and easy to use for rural administration purposes.
+The app is lightweight, beginner-friendly, and easy to use.
 
 ---
 
 # 🎯 Problem Statement
 
-Village and property records are often maintained manually using notebooks and paper files. This creates several problems such as:
+Village and property records are often maintained manually using paper files and notebooks. This creates several problems such as:
 
 - ⚠️ Missing records
 - ⚠️ Duplicate entries
 - ⚠️ Difficult record searching
-- ⚠️ Human calculation errors
+- ⚠️ Human errors
 - ⚠️ Time-consuming management
 
 ### ✅ Solution
 
-GramaKhata provides a simple digital record management system that helps users store and organize records efficiently.
+GramaKhata provides a simple digital solution for storing and managing records efficiently.
 
 ---
 
@@ -32,13 +32,13 @@ GramaKhata provides a simple digital record management system that helps users s
 
 | Feature | Description |
 |---|---|
-| 📝 Add Records | Add citizen and property details quickly |
-| 🔍 Search Records | Instantly search stored records |
-| 📊 Record Tracking | View and manage all saved records |
-| ✏️ Update Records | Edit existing details anytime |
-| 🗑️ Delete Records | Remove incorrect or outdated entries |
-| 💾 Offline Storage | Works completely offline |
-| 📱 Simple UI | Clean and user-friendly interface |
+| 📝 Add Records | Add citizen and property details |
+| 🔍 Search Records | Instantly search saved records |
+| 📊 Record Tracking | View and manage all records |
+| ✏️ Update Records | Edit record details anytime |
+| 🗑️ Delete Records | Remove unwanted entries |
+| 💾 Offline Storage | Works without internet |
+| 📱 Simple UI | Easy and clean interface |
 
 ---
 
@@ -49,8 +49,8 @@ GramaKhata provides a simple digital record management system that helps users s
 | Kotlin | Primary programming language |
 | Jetpack Compose | Modern Android UI toolkit |
 | Material 3 | UI Components and Design |
-| SharedPreferences / DataStore | Local data storage |
-| Android Studio | IDE |
+| DataStore | Local data storage |
+| Android Studio | Development IDE |
 | Min SDK | API 24 (Android 7.0) |
 | Target SDK | API 35 |
 
@@ -61,14 +61,18 @@ GramaKhata provides a simple digital record management system that helps users s
 ```plaintext
 GramaKhata/
 ├── app/
-│   └── src/main/java/com/gramakhata/
-│       ├── MainActivity.kt
-│       ├── DataStore.kt
-│       ├── AddRecordScreen.kt
-│       ├── SearchScreen.kt
-│       ├── RecordsScreen.kt
-│       ├── UpdateRecordScreen.kt
-│       └── DeleteRecordScreen.kt
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com.gramakhata/
+│   │   │   │   ├── MainActivity.kt
+│   │   │   │   ├── DataStore.kt
+│   │   │   │   └── ui.theme/
+│   │   │   ├── res/
+│   │   │   └── AndroidManifest.xml
+│
+├── gradle/
+├── build.gradle.kts
+└── settings.gradle.kts
 ```
 
 ---
@@ -76,53 +80,54 @@ GramaKhata/
 # 📸 App Screens
 
 ## 🏠 Dashboard
-- Simple home screen
-- Quick navigation to all features
-- Clean village-friendly UI
+- Simple and clean home screen
+- Easy navigation to app features
+- User-friendly interface
 
 ---
 
 ## 📝 Add Record Screen
-- Add property and citizen details
-- Easy form-based input
-- Secure local storage
+- Add village/property details
+- Simple form-based input
+- Secure data storage
 
 ---
 
 ## 🔍 Search Screen
 - Quickly search saved records
-- Fast and simple retrieval
+- Fast and easy retrieval
 
 ---
 
 ## 📊 Records Screen
-- View all saved entries
-- Organized record list
-- Easy management
+- View all stored entries
+- Organized record management
 
 ---
 
 ## ✏️ Update Record Screen
 - Modify existing records
-- Update details anytime
+- Edit details anytime
 
 ---
 
 ## 🗑️ Delete Record Screen
-- Remove duplicate or incorrect entries
-- Keeps records organized
+- Remove incorrect or duplicate entries
+- Keep records organized
 
 ---
 
 # 💾 Data Storage
 
-This app uses Android local storage for maintaining records:
+This app uses Android DataStore for local storage.
+
+### Benefits
 
 - ✅ No internet required
-- ✅ No external database needed
-- ✅ Data persists across app restarts
-- ✅ Secure offline storage
+- ✅ Data saved permanently
 - ✅ Fast and lightweight
+- ✅ Secure local storage
+- ✅ Offline accessibility
 
 ---
 
@@ -130,9 +135,9 @@ This app uses Android local storage for maintaining records:
 
 ## Prerequisites
 
-- Android Studio (Latest version)
+- Android Studio (Latest Version)
 - Android Emulator or Physical Device (API 24+)
-- JDK 11 or above
+- JDK 11 or Above
 
 ---
 
@@ -149,20 +154,18 @@ git clone https://github.com/YOUR_USERNAME/GramaKhata.git
 ## Open in Android Studio
 
 ```plaintext
-File → Open → Select GramaKhata folder
+File → Open → Select GramaKhata Folder
 ```
-
-Wait for Gradle sync to complete.
 
 ---
 
-## Run the App
-
-Click ▶️ Run button or press:
+## Run the Application
 
 ```plaintext
 Shift + F10
 ```
+
+OR click the ▶️ Run button in Android Studio.
 
 ---
 
@@ -183,13 +186,13 @@ implementation("androidx.datastore:datastore-preferences:1.1.1")
 
 ---
 
-# 🎯 Impact Goals
+# 🎯 Project Goals
 
-- 📌 Digital transformation for rural administration
-- 📌 Reduced paperwork and manual errors
-- 📌 Faster record access and management
-- 📌 Improved transparency in records
-- 📌 Easy offline accessibility
+- 📌 Reduce paperwork
+- 📌 Improve record management
+- 📌 Simplify village administration
+- 📌 Provide offline accessibility
+- 📌 Minimize manual errors
 
 ---
 
@@ -200,8 +203,8 @@ This project was developed as part of an Android App Development Internship usin
 - Platform — Android
 - Language — Kotlin
 - UI Toolkit — Jetpack Compose
-- Architecture — Single Activity Architecture
-- Storage — SharedPreferences / DataStore
+- Storage — DataStore
+- IDE — Android Studio
 
 ---
 
@@ -219,5 +222,5 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 - Jetpack Compose — Modern Android UI toolkit by Google
 - Android Studio — Official Android IDE by Google
-- Kotlin — Modern programming language for Android development
+- Kotlin — Modern Android programming language
 - Material Design 3 — UI Components and Design System
