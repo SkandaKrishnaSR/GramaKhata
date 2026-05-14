@@ -27,3 +27,10 @@ GramaKhata solves this problem with a simple digital record management system.
 🗑️ Delete Records
 💾 Offline Storage
 📱 Simple UI
+
+🛠️ Tech Stack
+Kotlin
+Jetpack Compose
+Material 3
+Android Studio
+DataStore / SharedPreferences
