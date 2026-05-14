@@ -1,6 +1,58 @@
 # 🏡 GramaKhata
 
-A simple Android app for managing village/property records digitally using **Kotlin** and **Jetpack Compose**.
+A simple Android app for managing village and property records digitally using **Kotlin** and **Jetpack Compose**.
+
+---
+
+# 📱 About the App
+
+GramaKhata helps users:
+
+- 📝 Add records
+- 🔍 Search records
+- ✏️ Update details
+- 🗑️ Delete records
+- 💾 Store data offline
+
+The app is simple, fast, and easy to use.
+
+---
+
+# 🎯 Problem Statement
+
+In many villages, records are still stored manually using paper files. This causes problems like:
+
+- ⚠️ Missing records
+- ⚠️ Duplicate entries
+- ⚠️ Difficult searching
+- ⚠️ Manual errors
+- ⚠️ Time-consuming work
+
+### ✅ Solution
+
+GramaKhata provides a digital solution for storing and managing records easily.
+
+---
+
+# ✨ Features
+
+- 📝 Add new records
+- 🔍 Search saved records
+- 📊 View all records
+- ✏️ Update record details
+- 🗑️ Delete unwanted records
+- 💾 Offline storage support
+- 📱 Simple user interface
+
+---
+
+# 🛠️ Tech Stack
+
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Android Studio
+- DataStore / SharedPreferences
 
 ---
 
@@ -18,23 +70,19 @@ GramaKhata/
 
 # 🚀 Installation
 
-## 1️⃣ Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/GramaKhata.git
 ```
 
----
-
-## 2️⃣ Open in Android Studio
+## Open in Android Studio
 
 ```plaintext
 File → Open → Select GramaKhata Folder
 ```
 
----
-
-## 3️⃣ Run the App
+## Run the App
 
 ```plaintext
 Shift + F10
@@ -56,10 +104,10 @@ implementation("androidx.datastore:datastore-preferences:1.1.1")
 
 # 🎯 Goals
 
-- Reduce paperwork
-- Improve record management
-- Provide offline accessibility
-- Simplify village administration
+- 📌 Reduce paperwork
+- 📌 Improve record management
+- 📌 Provide offline access
+- 📌 Simplify village administration
 
 ---
 
