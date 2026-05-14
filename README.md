@@ -19,3 +19,11 @@ Difficult searching
 Time-consuming management
 
 GramaKhata solves this problem with a simple digital record management system.
+✨ Features
+📝 Add Records
+🔍 Search Records
+📊 View All Records
+✏️ Update Details
+🗑️ Delete Records
+💾 Offline Storage
+📱 Simple UI
